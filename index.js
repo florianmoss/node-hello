@@ -3,7 +3,7 @@ const port = process.env.PORT || 8080;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
-  const msg = 'Hello NxNW Tech Meetup!\nI made a change.'
+  const msg = 'Hello NxNW Tech Meetup!\n'
   res.end(msg);
 });
 
